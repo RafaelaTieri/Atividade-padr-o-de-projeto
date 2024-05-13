@@ -27,6 +27,8 @@ Por exemplo, suponha que você tenha diferentes formas geométricas (abstração
 Neste exemplo, `Shape` é a abstração, `CanvasDrawer` e `SvgDrawer` são implementações, e `Circle` é uma subclasse de `Shape`. 
 Isso demostra como você pode criar diferentes formas e desenhá-las em diferentes meios (canvas HTML5 ou SVG) sem modificar as formas ou os meios de desenho, mantendo o código flexível e fácil de estender.
 
+![Diagrama UML do exemplo de Bridge](UML3.png)
+
 # Chain of Responsibility (Comportamental)
 
 Este padrão é útil quando você tem uma cadeia de objetos que podem processar um pedido, mas não sabe qual deles realmente o fará até o momento da execução. Ele permite que vários objetos possam ter a oportunidade de processar uma solicitação sem que o remetente precise conhecer qual objeto específico está lidando com ela.
@@ -39,3 +41,5 @@ Se a despesa não puder ser aprovada por nenhum aprovador na cadeia, uma mensage
 
 Este padrão é útil quando você precisa desacoplar remetentes de receptores, fornecendo mais flexibilidade na maneira como as solicitações são tratadas. 
 Ele permite adicionar ou modificar facilmente os comportamentos de tratamento de solicitações sem afetar o remetente.
+
+![Diagrama UML do exemplo de Chain of Responsibility](UML2.png)
